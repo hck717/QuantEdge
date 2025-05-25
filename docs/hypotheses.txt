@@ -1,0 +1,6 @@
+
+    1. Conversational AI achieves >85% intent classification accuracy (F1-score).
+    2. Hybrid RAG improves strategy retrieval by 15% over BM25 alone.
+    3. Fine-tuned LSTM outperforms baseline models by 10% in forecasting accuracy.
+    4. Custom strategies increase personalization accuracy by 15%.
+    
