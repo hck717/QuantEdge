@@ -1,0 +1,25 @@
+
+    ## Momentum
+    **Description**: Buys stocks with strong 12-month price increases and sells those with declines, using rate of change (Jegadeesh & Titman, 1993).
+    **Rationale**: Exploits persistent price trends driven by investor herding, delivering 1–2% monthly excess returns in U.S. markets. Its simplicity suits retail investors, aligning with QuantEdge’s accessibility goal.
+    **Learning**: RAG retrieves rules (e.g., “buy if price rises significantly”); fine-tuning optimizes thresholds using historical data.
+    **Personalization**: Adjusts trade size and holding period based on user risk preferences.
+
+    ## Mean Reversion
+    **Description**: Trades stocks deviating from historical averages using Bollinger Bands (Poterba & Summers, 1988).
+    **Rationale**: Effective in range-bound markets, complements Momentum by targeting short-term corrections. Success with volatile stocks (e.g., tech) enhances portfolio diversity.
+    **Learning**: RAG retrieves band parameters; fine-tuning calibrates thresholds.
+    **Personalization**: Adjusts entry/exit points for risk-averse users.
+
+    ## Statistical Arbitrage
+    **Description**: Trades correlated stock pairs, buying undervalued and selling overvalued (Gatev et al., 2006).
+    **Rationale**: Offers low market risk and high Sharpe ratios (>2), appealing to sophisticated users. Adds a quantitative edge to QuantEdge.
+    **Learning**: RAG retrieves correlation rules; fine-tuning optimizes pair selection.
+    **Personalization**: Selects pairs based on user sector preferences.
+
+    ## Trend Following
+    **Description**: Buys on 50-day MA crossing above 200-day MA, sells on reverse (Faber, 2007).
+    **Rationale**: Robust in trending markets, low turnover, suitable for retail investors. Academic studies confirm positive returns across assets.
+    **Learning**: RAG retrieves moving average periods; fine-tuning optimizes durations.
+    **Personalization**: Adjusts periods based on user time horizons.
+    
