@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "rule": { "type": "string", "minLength": 1 },
+    "parameters": { "type": "object", "additionalProperties": true },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "risk_tolerance": { "type": "string", "enum": ["low", "medium", "high"] },
+        "sector": { "type": "string", "minLength": 1 },
+        "horizon": { "type": "string", "enum": ["1 week", "1 month", "3 months"] }
+      },
+      "required": ["risk_tolerance", "sector", "horizon"]
+    }
+  },
+  "required": ["name", "rule", "parameters", "constraints"]
+}
