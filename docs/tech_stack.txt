@@ -1,0 +1,19 @@
+Tech Stack for QuantEdge
+- Python: Core language, free, versatile for data science and web development.
+- Flask: Lightweight web framework, free, ideal for deploying a private app on PythonAnywhere.
+- yfinance: Free API for historical and real-time stock data, reliable for backtesting.
+- Alpaca API: Free-tier API for real-time market data, suitable for educational projects.
+- NewsAPI: Free-tier API for financial news, supports sentiment analysis.
+- DistilBERT (transformers): Free via Hugging Face, efficient for RAG embeddings and conversational AI.
+- FAISS (faiss-cpu): Free, optimized for dense retrieval in RAG, runs on Colab CPU.
+- BM25 (rank-bm25): Free, lightweight for sparse retrieval in RAG.
+- TensorFlow: Free, supports LSTM training on Colab’s GPU for forecasting.
+- scikit-learn: Free, robust for computing metrics (e.g., F1-score) and statistical tests.
+- backtrader: Free, Python-based library for strategy backtesting.
+- MLflow: Free, tracks experiments in Colab for reproducibility.
+- GitHub Actions: Free CI/CD for private repositories, automates testing.
+- Tailwind CSS: Free, modern framework for styling the Flask dashboard.
+- Chart.js: Free, lightweight library for visualizations (e.g., stock price charts).
+- WebSocket (Flask-SocketIO): Free, enables real-time chat in the Flask app.
+- SQLite: Free, lightweight database for storing user data and strategy metadata.
+- pyngrok: Free-tier tunneling tool for local Flask app testing.
